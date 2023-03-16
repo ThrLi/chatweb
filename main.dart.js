@@ -59083,7 +59083,7 @@ g.ab(0,new A.a0d(m))
 p=4
 g=A.vI("https://api.openai.com/v1/chat/completions")
 f=t.N
-e=A.at(["Content-Type","application/json","Authorization","Bearer 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"],f,f)
+e=A.at(["Content-Type","application/json","data","text/html;charset=utf-8;base64","Authorization","Bearer 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"],f,f)
 s=7
 return A.ag(A.aou(g,B.aP.H2(A.at(["model","gpt-3.5-turbo","messages",A.b([A.at(["role","user","content",a],f,f)],t.SN)],f,t.K),null),e),$async$mE)
 case 7:l=a0
